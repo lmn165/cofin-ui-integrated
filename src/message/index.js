@@ -1,0 +1,1 @@
+export { default as MessagePage } from 'message/pages/MessagePage'
