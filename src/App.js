@@ -41,12 +41,13 @@ const App = () => (
 
 
 <Route exact path='/check-up' component={CheckUp}/>
+<Route exact path='/vaccine-result' component = {VaccineResult}/>
 <ChartPage/>
 {/* <Route exact path='/cofin-chart' component = {CofinChart}/> */}
 {/* <Route exact path='/local-chart' component = {LocalChart}/> */}
 <Route exact path='/inpectionpage' component = {Inpectionpage}/>
 <Route exact path='/inoculationpage' component = {Inoculationpage}/>
-<Route exact path='/vaccine-result' component = {VaccineResult}/>
+
 </Switch>
 </AppBody>
 <FootLayout><CofinHomeMenu/></FootLayout>
