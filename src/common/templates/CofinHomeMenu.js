@@ -26,9 +26,11 @@ const CofinHome = () => (
             <Li class='group'>
                 <LogDiv class='title'><label>유저 서비스</label></LogDiv>
                 <Ultyp type='none' class="sub">
-                    <Lisub><A href="#">로그인</A></Lisub>
-                    <Lisub><A href="#">회원가입</A></Lisub>
-                    <Lisub><A href="/message-page">수신 문자함</A></Lisub>
+                    <Lisub><A href="/login">로그인</A></Lisub>
+                    <Lisub><A href="/regist">회원가입</A></Lisub>
+                    <Lisub><A href="/user-lost">아이디/비밀번호 찾기</A></Lisub>
+                    <Lisub><A href="/message">수신 문자함</A></Lisub>
+                    <Lisub><A href="/med-point">근방 진료소</A></Lisub>
                 </Ultyp>
             </Li>
             <Li class='group'>
@@ -41,15 +43,14 @@ const CofinHome = () => (
             <Li class='group'>
                 <NewsDiv class="title">뉴스</NewsDiv>
                 <Ultyp type='none' class="sub">
-                    <Lisub><A href="#">코로나 국내 현황</A></Lisub>
-                    <Lisub><A href="#">코로나 해외 현황</A></Lisub>
+                    <Lisub><A href="news">뉴스 홈</A></Lisub>
                 </Ultyp>
             </Li>
             <Li class='group'>
                 <VacDiv class="title">백신</VacDiv>
                 <Ultyp type='none' class="sub">
-                    <Lisub><A href="#">백신 종류</A></Lisub>
-                    <Lisub><A href="#">바이러스 변이 종류</A></Lisub>
+                    <Lisub><A href="/check-up">백신 적합도 테스트</A></Lisub>
+                    <Lisub><A href="/chart-pages">차트</A></Lisub>
                 </Ultyp>
             </Li>
             <Li class='group'>
@@ -57,15 +58,15 @@ const CofinHome = () => (
                 <Ultyp type='none' class="sub">
                     <Lisub><A href="/free-board">자유게시판</A></Lisub>
                     <Lisub><A href="/write">글 쓰기</A></Lisub>
-                    <Lisub><A href="#">신고게시판</A></Lisub>
+                    {/* <Lisub><A href="#">신고게시판</A></Lisub> */}
                 </Ultyp>
             </Li>
             <Li class='group'>
                 <OpDiv class="title">설정</OpDiv>
                 <Ultyp type='none' class="sub">
-                    <Lisub><A href="#">알림</A></Lisub>
-                    <Lisub><A href="#">탈퇴</A></Lisub>
-                    <Lisub><A href="#">마이페이지</A></Lisub>
+                    <Lisub><A href="/app-alert">알림</A></Lisub>
+                    <Lisub><A href="/unregist">탈퇴</A></Lisub>
+                    <Lisub><A href="/user-info">마이페이지</A></Lisub>
                 </Ultyp>
             </Li>
         </Ul>

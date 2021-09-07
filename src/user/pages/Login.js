@@ -3,7 +3,6 @@ import UserInfo from '../components/UserInfo';
 import styled from 'styled-components'
 import RegisterForm from 'user/components/RegisterForm';
 import UserLost from 'user/components/UserLost';
-import AppAlert from 'user/components/AppAlert';
 
 const Login = () => (
 <div class="login">
@@ -45,7 +44,6 @@ const Login = () => (
         <img src="https://img.echosting.cafe24.com/skin/base_ko_KR/member/btn_google_login.gif" alt="구글 로그인"/></a><br/><br/>
     <br/><br/>
 </div>
-<AppAlert/>
 </div>
 
 )

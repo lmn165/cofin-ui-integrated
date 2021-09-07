@@ -4,7 +4,7 @@ import Unregister from './Unregister'
 const UserInfo = () => (
 <div>
     <h1>개인 정보</h1>
-<form onSubmit={this.formSubmit}  action="">
+<form>
         <ul>
             <li>
                 <label>
@@ -29,12 +29,12 @@ const UserInfo = () => (
                 </label></li>
                 <li>            
                 <label>
-                    성별: 
-                    <input type="radio" value="Male" checked={this.state.selectedOption ==="Male"} onChange={this.onValueChange}/>Male
-                    {/* 성별 : 
+                    {/* 성별:  */}
+                    {/* <input type="radio" value="Male" checked={this.state.selectedOption ==="Male"} onChange={this.onValueChange}/>Male */}
+                    성별 : 
                         <input type="radio" name="sex" value="male" /> 남성
                         <input type="radio" name="sex" value="female" /> 여성
-                        <input type="radio" name="sex" value="other" /> 기타 */}
+                        <input type="radio" name="sex" value="other" /> 기타
                 </label></li>
                 <li>            
                 <label>
@@ -49,7 +49,7 @@ const UserInfo = () => (
                     주소: <input type="text" id="user_address" />
                 </label></li>
                 <input type="submit" value="변경완료" />
-                <input type="exit" value="취소" />
+                <input type="reset" value="취소" />
                 
         </ul>
     </form>
